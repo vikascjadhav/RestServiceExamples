@@ -43,6 +43,5 @@ Steps
 
 3) you test rest service using restconsole plugin of firefox
     this service is post taking nothing printing string 
-    http://localhost:8080/HelloRestService/getHelloWorldService
-  
+    https://192.168.43.62:8090/liveexam/getExam 
    before you deploy make sure tomcat is on.
