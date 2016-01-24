@@ -1,5 +1,9 @@
 #RestService Examples
 
+#Two Examples
+#1) MRExecutiveApp
+#2) liveexam - simple example takes exam as input and display same exam as output
+
 below are the steps for configuration of tomcat and maven for autodeploy
 
 Tools needed 
