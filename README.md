@@ -36,8 +36,11 @@ Steps
 
 2)  go  to project root folder  HelloRestService
     run following commands
+
          $mvn tomcat7:redeploy  for deploying web application
+
          $mvn tomcat7:undeploy  to undeploy app
+
          $mvn clear to clear target folder along with generated jar 
 
      before you deploy make sure tomcat is on.
