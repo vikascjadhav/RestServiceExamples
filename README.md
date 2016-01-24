@@ -10,6 +10,7 @@ Tools needed
 
 
 Steps 
+
 1) Change xml files(settings.xml, tomcat-users.xml) in maven and tomcat for 
      automatic deployment of service war using maven
     a) change in  apache-maven-3.2.3\conf\settings.xml 
@@ -28,12 +29,13 @@ Steps
           <role rolename="manager-script"/>
         <user username="admin" password="admin" roles="manager-script"/> 
 
-  ATTACHING MY FILES FOR UR REFERENCE
+
 2)  go  to project root folder  HelloRestService
     run following commands
          $mvn tomcat7:redeploy  for deploying web application
          $mvn tomcat7:undeploy  to undeploy app
          $mvn clear to clear target folder along with generated jar 
+
 
 3) you test rest service using restconsole plugin of firefox
     this service is post taking nothing printing string 
