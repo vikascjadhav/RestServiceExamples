@@ -10,7 +10,7 @@ Tools needed
 1) Maven
 2) Tomcat (or any other web server)
 3) Eclipse
-4) firefox with restconsole plugin for testing service
+4) firefox with restclient plugin for testing service
 
 
 Steps 
@@ -40,8 +40,7 @@ Steps
          $mvn tomcat7:undeploy  to undeploy app
          $mvn clear to clear target folder along with generated jar 
 
+     before you deploy make sure tomcat is on.
 
-3) you test rest service using restconsole plugin of firefox
-    this service is post taking nothing printing string 
+3) you test rest service 
     https://192.168.43.62:8090/liveexam/getExam 
-   before you deploy make sure tomcat is on.
